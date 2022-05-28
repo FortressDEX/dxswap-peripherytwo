@@ -1,5 +1,5 @@
 {
-  "name": "@swapr/periphery",
+  "name": "@carthagedex/periphery",
   "version": "0.3.20",
   "description": "Peripheral smart contracts for interacting with DXswap core contracts",
   "engines": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/levelkdev/dxswap-periphery"
+    "url": "https://github.com/FortressDEX/dxswap-peripherytwo"
   },
   "files": [
     "build",
@@ -15,7 +15,7 @@
     ".contracts.json"
   ],
   "dependencies": {
-    "@swapr/core": "^0.3.17"
+    "@carthagedex/core": "^0.3.17"
   },
   "devDependencies": {
     "@types/chai": "^4.2.6",

@@ -1,6 +1,6 @@
 pragma solidity =0.6.6;
 
-import '@swapr/core/contracts/interfaces/IDXswapPair.sol';
+import '@carthagedex/core/contracts/interfaces/IDXswapPair.sol';
 
 import '../libraries/Babylonian.sol';
 import '../libraries/TransferHelper.sol';
