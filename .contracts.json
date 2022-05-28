@@ -14,6 +14,9 @@
   "xdai": {
     "router": "0xE43e60736b1cb4a75ad25240E2f9a62Bff65c0C0"
   },
+  "candle": {
+    "router": "0x252D8FDAA323094fe43cCa93ad8e650fC72521A7"
+  },
   "arbitrumOne": {
     "router": "0x530476d5583724A89c8841eB6Da76E7Af4C0F17E"
   },
