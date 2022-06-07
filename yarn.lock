@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@carthagedex/core@0.3.18":
+  version "0.3.18"
+  resolved "https://registry.yarnpkg.com/@carthagedex/core/-/core-0.3.18.tgz#7052d05555a0d7e17652206b89f1477d63069751"
+  integrity sha512-WNp3zWxH8gabPfoF63K1BZYeM7zEDeoIRIzYIuNDNn887cc5ywB7G959QsWKqoRxF7bgb2OH8oTMgtGJCxhAbQ==
+  dependencies:
+    typescript "3.9.5"
+
 "@ethereum-waffle/chai@^2.5.1":
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/@ethereum-waffle/chai/-/chai-2.5.1.tgz#8bdc055952fc80ff78132571396a2771a36d97ae"
@@ -119,13 +126,6 @@
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/@solidity-parser/parser/-/parser-0.6.2.tgz#49707fc4e06649d39d6b25bdab2e9093d372ce50"
   integrity sha512-kUVUvrqttndeprLoXjI5arWHeiP3uh4XODAKbG+ZaWHCVQeelxCbnXBeWxZ2BPHdXgH0xR9dU1b916JhDhbgAA==
-
-"@carthagedex/core@^0.3.17":
-  version "0.3.17"
-  resolved "https://registry.yarnpkg.com/@carthagedex/core/-/core-0.3.17.tgz#fe9d230675e6cb333185a87deb70ac1642404006"
-  integrity sha512-2jBDMVT+LCf/sAtP5LvT6EgCVHYbK/5OR6wrcmZ4KiSg4QhX8C3jtFwd0bpRdjzZ9NsGP+v4bBCpH54AT2QYIQ==
-  dependencies:
-    typescript "^3.9.5"
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
@@ -1533,7 +1533,7 @@ decode-uri-component@^0.2.0:
 decompress-response@^3.2.0, decompress-response@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/decompress-response/-/decompress-response-3.3.0.tgz#80a4dd323748384bfa248083622aedec982adff3"
-  integrity sha1-gKTdMjdIOEv6JICDYirt7Jgq3/M=
+  integrity sha512-BzRPQuY1ip+qDonAOz42gRm/pg9F768C+npV/4JOsxRC2sq+Rlk+Q4ZCAsOhnIaMrgarILY+RMUIvMmmX1qAEA==
   dependencies:
     mimic-response "^1.0.0"
 
@@ -4649,9 +4649,9 @@ simple-concat@^1.0.0:
   integrity sha512-cSFtAPtRhljv69IK0hTVZQ+OfE9nePi/rtJmw5UjHeVyVroEqJXP1sFztKUy1qU+xvz3u/sfYJLa947b7nAN2Q==
 
 simple-get@^2.7.0:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/simple-get/-/simple-get-2.8.1.tgz#0e22e91d4575d87620620bc91308d57a77f44b5d"
-  integrity sha512-lSSHRSw3mQNUGPAYRqo7xy9dhKmxFXIjLjp4KHpf99GEH2VH7C3AM+Qfx6du6jhfUi6Vm7XnbEVEf7Wb6N8jRw==
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/simple-get/-/simple-get-2.8.2.tgz#5708fb0919d440657326cd5fe7d2599d07705019"
+  integrity sha512-Ijd/rV5o+mSBBs4F/x9oDPtTx9Zb6X9brmnXvMW4J7IR15ngi9q5xxqWBKU744jTZiaXtxaPL7uHG6vtN8kUkw==
   dependencies:
     decompress-response "^3.3.0"
     once "^1.3.1"
@@ -5105,7 +5105,12 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.7.3, typescript@^3.9.5:
+typescript@3.9.5:
+  version "3.9.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.5.tgz#586f0dba300cde8be52dd1ac4f7e1009c1b13f36"
+  integrity sha512-hSAifV3k+i6lEoCJ2k6R2Z/rp/H3+8sdmcn5NrS3/3kE7+RyZXm9aqvxWqjEXHAd8b0pShatpcdMTvEdvAJltQ==
+
+typescript@^3.7.3:
   version "3.9.7"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
   integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
