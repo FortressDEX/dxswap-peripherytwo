@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@carthagedex/core@0.3.18":
+  version "0.3.18"
+  resolved "https://registry.yarnpkg.com/@carthagedex/core/-/core-0.3.18.tgz#7052d05555a0d7e17652206b89f1477d63069751"
+  integrity sha512-WNp3zWxH8gabPfoF63K1BZYeM7zEDeoIRIzYIuNDNn887cc5ywB7G959QsWKqoRxF7bgb2OH8oTMgtGJCxhAbQ==
+  dependencies:
+    typescript "3.9.5"
+
 "@ethereum-waffle/chai@^2.5.1":
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/@ethereum-waffle/chai/-/chai-2.5.1.tgz#8bdc055952fc80ff78132571396a2771a36d97ae"
@@ -119,13 +126,6 @@
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/@solidity-parser/parser/-/parser-0.6.2.tgz#49707fc4e06649d39d6b25bdab2e9093d372ce50"
   integrity sha512-kUVUvrqttndeprLoXjI5arWHeiP3uh4XODAKbG+ZaWHCVQeelxCbnXBeWxZ2BPHdXgH0xR9dU1b916JhDhbgAA==
-
-"@carthagedex/core@^0.3.17":
-  version "0.3.17"
-  resolved "https://registry.yarnpkg.com/@carthagedex/core/-/core-0.3.17.tgz#fe9d230675e6cb333185a87deb70ac1642404006"
-  integrity sha512-2jBDMVT+LCf/sAtP5LvT6EgCVHYbK/5OR6wrcmZ4KiSg4QhX8C3jtFwd0bpRdjzZ9NsGP+v4bBCpH54AT2QYIQ==
-  dependencies:
-    typescript "^3.9.5"
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
@@ -4199,9 +4199,9 @@ qs@6.7.0:
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 query-string@^5.0.1:
   version "5.1.1"
@@ -5105,7 +5105,12 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.7.3, typescript@^3.9.5:
+typescript@3.9.5:
+  version "3.9.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.5.tgz#586f0dba300cde8be52dd1ac4f7e1009c1b13f36"
+  integrity sha512-hSAifV3k+i6lEoCJ2k6R2Z/rp/H3+8sdmcn5NrS3/3kE7+RyZXm9aqvxWqjEXHAd8b0pShatpcdMTvEdvAJltQ==
+
+typescript@^3.7.3:
   version "3.9.7"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
   integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
